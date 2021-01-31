@@ -1,10 +1,12 @@
 import PageTemplate from "../templates/page.template";
 import { motion } from "framer-motion";
 import { container, text_reaveal } from "../utils/Animation";
+import Link from "next/link";
 
 const Overview = () => {
   const overviews = [
     { content: "Alaraja Food Store"},
+    
   ];
 
   const overviewList = overviews.map((project, index) => (
