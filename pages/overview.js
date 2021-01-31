@@ -5,8 +5,7 @@ import Link from "next/link";
 
 const Overview = () => {
   const overviews = [
-    { content: "Alaraja Food Store",<Link> href="https://www.linkedin.com/in/aris-prasetyo-667a2119a">
-    </Link>},
+    { content: "Alaraja Food Store", Link: "https://www.linkedin.com/in/aris-prasetyo-667a2119a"},
   ];
 
   const overviewList = overviews.map((project, index) => (
