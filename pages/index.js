@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { container, text_reaveal, text_reaveal_fade } from "../utils/Animation";
 
 const About = () => {
-  const texts = [{ content: "One pixel" }, { content: "Every frame" }];
+  const texts = [{ content: "Lovers" }, { content: "Learner" }];
 
   const textList = texts.map((text, index) => (
     <div className="overflow-hidden" key={index}>
@@ -28,13 +28,9 @@ const About = () => {
         <motion.div variants={container} className="md:w-1/2 lg:pl-36">
           {textList}
           <motion.p variants={text_reaveal_fade}>
-            Supporter of "simplicity", I focus on user needs to build intuitive
-            digital interfaces, offering a memorable user experience. I work at
-            Bhent.inc as a front end developer for several types of projects and
-            my area of expertise is <a className="text-third">ReactJs</a>,{" "}
-            <a className="text-third">React Native</a> and{" "}
-            <a className="text-third">Node</a> . Longly inspired by Indian
-            philosophy and culture, all my life and work is design by it.
+            i am 23 years old i really like what i learn and learning is my hobby with my partner @Tuan_Putri <a className="text-third">ReactJS</a>,{" "}
+            <a className="text-third">Kotlin</a> and{" "}
+            <a className="text-third">Dart</a> .Inspiration By Arfa.
           </motion.p>
         </motion.div>
         <div className="hidden md:block w-1/2">part 2</div>
