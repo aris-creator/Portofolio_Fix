@@ -5,11 +5,8 @@ import { container, text_reaveal } from "../utils/Animation";
 const Overview = () => {
   const overviews = [
     { content: "Alaraja Food Store" },
-    <Link href="https://www.linkedin.com/in/aris-prasetyo-667a2119a">
+    <Link href="https://cobak2-6q3z4pob5.vercel.app/">
      </Link>
-    { content: "Flatlin" },
-    { content: "Rigel" },
-    { content: "Rigel" },
   ];
 
   const overviewList = overviews.map((project, index) => (
