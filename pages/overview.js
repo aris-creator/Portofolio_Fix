@@ -4,7 +4,9 @@ import { container, text_reaveal } from "../utils/Animation";
 
 const Overview = () => {
   const overviews = [
-    { content: "Flatlin" },
+    { content: "Alaraja Food Store" },
+    <Link href="https://www.linkedin.com/in/aris-prasetyo-667a2119a">
+     </Link>
     { content: "Flatlin" },
     { content: "Rigel" },
     { content: "Rigel" },
