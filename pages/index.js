@@ -30,7 +30,7 @@ const About = () => {
           <motion.p variants={text_reaveal_fade}>
             i am 23 years old Born in Surabaya i really like what i learn and learning is my hobby with my partner @Tuan_Putri <a className="text-third">ReactJS</a>,{" "}
             <a className="text-third">Kotlin</a> and{" "}
-            <a className="text-third">Dart</a> .Inspiration By Arfa.
+            <a className="text-third">Dart</a> .Web Designer By ariselroez_coming_soon.
           </motion.p>
         </motion.div>
         <div className="hidden md:block w-1/2">part 2</div>
