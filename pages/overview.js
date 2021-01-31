@@ -5,12 +5,12 @@ import Link from "next/link";
 
 const Overview = () => {
   const overviews = [
-    { content: "Alaraja Food Store", Link: "https://www.linkedin.com/in/aris-prasetyo-667a2119a"},
+    { content: <a id="rel" href="https://m.facebook.com/">Alaraja</a> },
   ];
 
   const overviewList = overviews.map((project, index) => (
     <div className="overflow-hidden mt-6" key={index}>
-      <motion.h1 variants={text_reaveal}>{project.content.Link}</motion.h1>
+      <motion.h1 variants={text_reaveal}>{project.content}</motion.h1>
     </div>
   ));
 
